@@ -9,6 +9,9 @@ colorscheme gruvbox
 set hidden
 set number
 
+" Disable bells
+autocmd! GUIEnter * set vb t_vb=
+
 if has('gui_running')
   set guifont=DejaVu\ Sans\ Mono\ 11,Monaco:h15
 endif
