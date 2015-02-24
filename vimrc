@@ -37,6 +37,9 @@ else
   endif
 endif
 
+" Disable auto comment insertion
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=0
+
 " NERDTree
 autocmd vimenter * NERDTree | wincmd p
 
