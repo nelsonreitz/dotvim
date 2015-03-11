@@ -20,8 +20,8 @@ endif
 " Indentation
 set ts=4 sts=4 sw=4 expandtab
 
-" Use the same symbols as TextMate for tabstops and EOLs
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+" Invisible characters
+set listchars=eol:¬,tab:▸\ ,trail:~,extends:>,precedes:<
 set list
 
 if has("gui_running")
